@@ -1,0 +1,61 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!-- <ion-header>
+
+  <ion-toolbar color="primary">
+    <ion-button start>
+      <button ion-button icon-only color="light">
+        <ion-icon name="arrow-back"></ion-icon>
+      </button>
+    </ion-button>
+    <ion-title>Login</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only color="light">
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+
+</ion-header> -->
+<ion-header>
+  <ion-toolbar color="primary">
+    <!-- <ion-buttons left>
+      <button ion-button icon-only menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons> -->
+    <ion-title>Login</ion-title>
+    <ion-buttons right>
+      <button ion-button icon-only>
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-list inset>
+
+    <ion-item>
+      <ion-label>Username</ion-label>
+      <ion-input type="text" value=""></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Password</ion-label>
+      <ion-input type="password" value=""></ion-input>
+    </ion-item>
+
+  </ion-list>
+
+  <div padding>
+    <button ion-button color="primary" block (click)="clicked($event);">Sign In</button>
+  </div>
+
+  <div text-center>
+    <p>SFC Shop Flow Control Mobile V1.0</p>
+  </div>
+</ion-content>
